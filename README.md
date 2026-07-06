@@ -10,8 +10,3 @@ Signature: 8a477f597d28d172789f06886806bc55
 # For information about cache directory tags, see:
 #	http://www.brynosaurus.com/cachedir/
 ```
-
-## crontab
-```
-0 0 * * * chronic $HOME/src/restic-scripts/cron.sh
-```
