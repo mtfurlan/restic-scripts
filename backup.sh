@@ -10,5 +10,5 @@ restic backup \
     --exclude-caches \
     --one-file-system \
     --exclude-file="$DIR/excludes" \
-    "${RESTIC_INCLUDE[@]}" \
+    "${BACKUP_TARGETS[@]}" \
     "$@"
