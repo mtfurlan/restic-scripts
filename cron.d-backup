@@ -1,4 +1,4 @@
 #!/bin/sh
 # copy this to /etc/cron.d
 # we want to run as root not user because docker leaves files owned by root stuff
-chronic $HOME/src/restic-scripts/cron.sh
+chronic /home/mara/src/restic-scripts/cron.sh
